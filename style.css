@@ -110,6 +110,13 @@
         color: hsl(0, 0%, 95%);
     }   
 
+    p{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5 ;
+        -webkit-box-orient: vertical;
+    }
+
     .paragrafo{
         font-family: 'Lexend Deca', sans-serif;
         font-weight: 300;
@@ -122,8 +129,9 @@
 
     .container-btn{
         display: flex;
-        margin-top: 30%;
+        margin-top: 20%;
         justify-content: center;
+        align-items: center;
     }
 
     .btn{
